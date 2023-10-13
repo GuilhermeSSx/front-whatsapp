@@ -169,8 +169,8 @@
     padding-top: 5px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    resize: none; 
-    overflow-y: hidden; 
+    resize: none;
+    overflow-y: hidden;
     transition: height 0.3s ease;
     height: 40px;
 }
@@ -180,3 +180,79 @@
     height: 25px;
     cursor: pointer;
 }
+
+.user-container-message {
+    max-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 2px 0;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.user-my-message {
+    padding: 8px;
+    background-color: #D9FDD3;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+
+.user-other-message {
+    padding: 8px;
+    background-color: #FFF;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+
+
+.input-login {
+    width: 70%;
+    max-width: 200px;
+    padding: 10px;
+    border: none;
+}
+
+.button-login {
+    width: 70%;
+    max-width: 220px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #00a884;
+    color: white;
+}
+
+.user-conected-name {
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+
+.search-input {
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f0f2f5;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    overflow-y: hidden;
+    transition: height 0.3s ease;
+    height: 35px;
+}
+
